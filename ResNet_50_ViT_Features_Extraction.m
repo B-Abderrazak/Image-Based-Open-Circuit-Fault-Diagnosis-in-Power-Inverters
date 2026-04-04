@@ -1,6 +1,6 @@
 clc;close all;clear;
 modelType = 1; % 1 = ResNet50, 2 = ViT
-datasetPath = '100';
+datasetPath = 'Data\Full_Current_Cycle';
 % datasetPath= 'C:\Users\HP\Documents\tam\TAM_2026_close';
 imds = imageDatastore(datasetPath,'IncludeSubfolders',true,'LabelSource','foldernames'); 
 switch modelType
