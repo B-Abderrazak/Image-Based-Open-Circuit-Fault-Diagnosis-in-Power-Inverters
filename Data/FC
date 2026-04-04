@@ -1,10 +1,1 @@
-# Dataset
 
-The dataset is available at:   https://www.kaggle.com/datasets/babderrazak/open-circuit-faults
-
-👉 https://your-link-here
-
-Structure:
-- 22 classes
-- 224x224 grayscale images
-- 1000 samples per class
