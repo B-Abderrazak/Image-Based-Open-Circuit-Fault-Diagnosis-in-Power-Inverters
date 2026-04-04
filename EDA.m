@@ -31,13 +31,13 @@ grid on;
 figure;
 numDisplay = min(numClasses, 9); % show max 9 classes
 
-for i = 6:numDisplay+5
+for i = 1:numDisplay
     files = dir(fullfile(datasetPath, classes(i).name, '*.tif'));
     
     if ~isempty(files)
         img = imread(fullfile(datasetPath, classes(i).name, files(1).name));
         
-        subplot(3,3,i-5);
+        subplot(3,3,i);
         imshow(img,[]);
         title(classes(i).name, 'Interpreter', 'none');
     end
